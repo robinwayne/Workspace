@@ -1,0 +1,23 @@
+package fr.cpe.jms.consumer;
+
+import javax.ejb.MessageDriven;
+
+import org.jboss.logging.Logger;
+
+
+@MessageDriven(name = "HelloJmsMDB", activationConfig= {
+		@ActivationConfigProperty(propertyName="destinationType", propertyValue = "javax.jms.Queue"),
+		@ActivationConfigProperty(propertyName="destination", propertyValue = "asi2-hello"),
+		@ActivationConfigProperty(propertyName="aknowledgeMode", propertyValue = "Auto-aknowledge"),
+})
+public class HelloJmsConsumer implements MessageListener {
+	private static Logger logger = Logger.getLogger(HelloJmsConsumer.class.getName());
+	
+	@Override
+	public void onMessage(Message message){
+		logger.info(">>> onMessage() - " + message);
+		
+		Thread.sleep(3000);
+	}
+
+}

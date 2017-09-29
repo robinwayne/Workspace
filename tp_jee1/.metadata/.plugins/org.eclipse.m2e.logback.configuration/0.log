@@ -1,0 +1,64 @@
+2017-09-28 09:13:58,378 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: fr.cpe:tp_jee1-ejb:1.0-SNAPSHOT @ /home/ubuntu/Desktop/Workspace/tp_jee1/tp_jee1-ejb/pom.xml.
+2017-09-28 09:13:58,928 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.cpe:tp_jee1-web:1.0-SNAPSHOT @ /home/ubuntu/Desktop/Workspace/tp_jee1/tp_jee1-web/pom.xml.
+2017-09-28 09:13:59,223 [Worker-20] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/spec/javax/faces/jboss-jsf-api_2.2_spec/2.2.8/jboss-jsf-api_2.2_spec-2.2.8.pom
+2017-09-28 09:13:59,243 [Worker-20] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/spec/javax/faces/jboss-jsf-api_2.2_spec/2.2.8/jboss-jsf-api_2.2_spec-2.2.8.pom
+2017-09-28 09:13:59,257 [Worker-20] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/11/jboss-parent-11.pom
+2017-09-28 09:13:59,278 [Worker-20] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/jboss-parent/11/jboss-parent-11.pom
+2017-09-28 09:13:59,293 [Worker-20] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/spec/javax/faces/jboss-jsf-api_2.2_spec/2.2.8/jboss-jsf-api_2.2_spec-2.2.8.jar
+2017-09-28 09:13:59,452 [Worker-20] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/spec/javax/faces/jboss-jsf-api_2.2_spec/2.2.8/jboss-jsf-api_2.2_spec-2.2.8.jar
+2017-09-28 09:13:59,639 [Worker-20] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: fr.cpe:tp_jee1-ear:1.0-SNAPSHOT @ /home/ubuntu/Desktop/Workspace/tp_jee1/tp_jee1-ear/pom.xml.
+2017-09-28 09:14:01,784 [Worker-20] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tp_jee1-ejb/src/main/java
+2017-09-28 09:14:01,784 [Worker-20] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tp_jee1-ejb/src/main/resources
+2017-09-28 09:14:01,795 [Worker-20] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tp_jee1-ejb/src/test/java
+2017-09-28 09:14:01,795 [Worker-20] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tp_jee1-ejb/src/test/resources
+2017-09-28 09:14:03,871 [Worker-20] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tp_jee1-web/src/main/java
+2017-09-28 09:14:03,874 [Worker-20] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tp_jee1-web/src/test/java
+2017-09-28 09:14:06,568 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-09-28 09:14:06,890 [Worker-20] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 3 project(s) in 10 sec
+2017-09-28 09:14:10,447 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-28 09:14:10,448 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ubuntu/Desktop/Workspace/tp_jee1/tp_jee1-ear/src/main/resources
+2017-09-28 09:14:15,906 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-28 09:14:15,931 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-09-28 09:14:15,958 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-28 09:14:15,960 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-09-28 09:14:17,087 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-28 09:14:17,087 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ubuntu/Desktop/Workspace/tp_jee1/tp_jee1-web/src/main/resources
+2017-09-28 09:14:17,096 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-28 09:14:17,097 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ubuntu/Desktop/Workspace/tp_jee1/tp_jee1-web/src/test/resources
+2017-09-28 09:15:21,252 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.cpe:tp_jee1-web:1.0-SNAPSHOT @ /home/ubuntu/Desktop/Workspace/tp_jee1/tp_jee1-web/pom.xml.
+2017-09-28 09:15:21,277 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for fr.cpe:tp_jee1-ejb:jar:1.0-SNAPSHOT is missing, no dependency information available
+2017-09-28 09:15:21,392 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for fr.cpe:tp_jee1-ejb:jar:1.0-SNAPSHOT is missing, no dependency information available
+2017-09-28 09:15:45,808 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EjbLifecycleMapping lifecycle mapping for MavenProject: fr.cpe:tp_jee1-ejb:1.0-SNAPSHOT @ /home/ubuntu/Desktop/Workspace/tp_jee1/tp_jee1-ejb/pom.xml.
+2017-09-28 09:15:45,895 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: fr.cpe:tp_jee1-web:1.0-SNAPSHOT @ /home/ubuntu/Desktop/Workspace/tp_jee1/tp_jee1-web/pom.xml.
+2017-09-28 09:15:45,929 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.EarLifecycleMapping lifecycle mapping for MavenProject: fr.cpe:tp_jee1-ear:1.0-SNAPSHOT @ /home/ubuntu/Desktop/Workspace/tp_jee1/tp_jee1-ear/pom.xml.
+2017-09-28 09:15:46,841 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-09-28 09:15:47,334 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tp_jee1-ejb/src/main/java
+2017-09-28 09:15:47,335 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tp_jee1-ejb/src/main/resources
+2017-09-28 09:15:47,335 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tp_jee1-ejb/src/test/java
+2017-09-28 09:15:47,335 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tp_jee1-ejb/src/test/resources
+2017-09-28 09:15:47,530 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tp_jee1-web/src/main/java
+2017-09-28 09:15:47,531 [Worker-9] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tp_jee1-web/src/test/java
+2017-09-28 09:15:47,842 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Generating application.xml
+2017-09-28 09:15:47,858 [Worker-9] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 3 project(s) in 2 sec
+2017-09-28 09:15:49,103 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-28 09:15:49,103 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ubuntu/Desktop/Workspace/tp_jee1/tp_jee1-ear/src/main/resources
+2017-09-28 09:15:49,452 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-28 09:15:49,452 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-09-28 09:15:49,474 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-28 09:15:49,477 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-09-28 09:15:49,709 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-28 09:15:49,709 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ubuntu/Desktop/Workspace/tp_jee1/tp_jee1-web/src/main/resources
+2017-09-28 09:15:49,709 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-28 09:15:49,709 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ubuntu/Desktop/Workspace/tp_jee1/tp_jee1-web/src/test/resources
+2017-09-28 09:31:40,234 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-28 09:31:40,275 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-09-28 09:31:40,300 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-28 09:31:40,300 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-09-28 09:31:42,849 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-28 09:31:42,849 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ubuntu/Desktop/Workspace/tp_jee1/tp_jee1-web/src/main/resources
+2017-09-28 09:31:42,850 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-28 09:31:42,850 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ubuntu/Desktop/Workspace/tp_jee1/tp_jee1-web/src/test/resources
+2017-09-28 09:35:22,393 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-28 09:35:22,402 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ubuntu/Desktop/Workspace/tp_jee1/tp_jee1-web/src/main/resources
+2017-09-28 09:35:22,404 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-28 09:35:22,404 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/ubuntu/Desktop/Workspace/tp_jee1/tp_jee1-web/src/test/resources

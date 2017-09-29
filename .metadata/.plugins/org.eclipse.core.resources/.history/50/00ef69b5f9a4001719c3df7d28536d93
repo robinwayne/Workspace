@@ -1,0 +1,11 @@
+package fr.cpe.jms.producer;
+
+import javax.annotation.Resource;
+import javax.ejb.Stateless;
+import javax.inject.Inject;
+
+
+@Stateless
+public class HelloJmsProducer  {
+	String sayHello(String name);
+}

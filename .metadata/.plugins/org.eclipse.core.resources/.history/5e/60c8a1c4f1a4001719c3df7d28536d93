@@ -1,0 +1,18 @@
+package fr.cpe.impl;
+
+import org.jboss.logging.Logger;
+
+import java.util.List;
+
+import fr.cpe.IAdditionRestService;
+
+
+public class AdditionRestService implements IAdditionRestService{
+	
+	Logger logger = Logger.getLogger(AdditionRestService.class.getName());
+	
+	public Double addition(List<Double> value){
+		logger.info(">>> addition()");
+		return value.stream().mapToDouble(Double::doubleValue).sum();
+	}
+}

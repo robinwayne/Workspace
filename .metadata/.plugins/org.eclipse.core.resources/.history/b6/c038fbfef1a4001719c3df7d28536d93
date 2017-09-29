@@ -1,0 +1,16 @@
+package fr.cpe.impl;
+
+import org.jboss.logging.Logger;
+
+import java.util.List;
+
+import fr.cpe.IAdditionRestService;
+
+
+public class AdditionRestService implements IAdditionRestService{
+	
+	public Double sayaddition(List<Double> value){
+		
+		return value.stream().mapToDouble(Double::doubleValue).sum();
+	}
+}

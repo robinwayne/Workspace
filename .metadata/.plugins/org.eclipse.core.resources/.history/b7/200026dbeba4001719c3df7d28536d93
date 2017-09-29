@@ -1,0 +1,25 @@
+package fr.cpe.impl;
+
+import org.jboss.logging.Logger;
+import javax.inject.Inject;
+
+import fr.cpe.IAddition;
+import fr.cpe.IAdditionRestService;
+import fr.cpe.IHello;
+import fr.cpe.IHelloRestService;
+
+public class AdditionRestService implements IAdditionRestService{
+	
+	Logger logger = Logger.getLogger(AdditionRestService.class.getName());
+	
+	@Inject
+	private IAddition additionService;
+	
+	@Override
+	public String addition(String name){
+		logger.info(">>> addition()");
+		
+				return helloService.sayHello(name);
+		
+	}
+}

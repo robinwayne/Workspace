@@ -1,0 +1,6 @@
+package fr.cpe.impl;
+import javax.ejb.Stateless;
+
+public class Hello {
+
+}

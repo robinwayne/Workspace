@@ -1,0 +1,25 @@
+package fr.cpe.impl;
+
+import org.jboss.logging.Logger;
+import javax.inject.Inject;
+
+import fr.cpe.IAddition;
+import fr.cpe.IAdditionRestService;
+
+
+public class AdditionRestService implements IAdditionRestService{
+	
+	Logger logger = Logger.getLogger(AdditionRestService.class.getName());
+	
+	@Inject
+	private IAddition additionService;
+	
+	@Override
+	public int addition(int value){
+		logger.info(">>> addition()");
+		
+			List<double> Table = new ArrayList<double>();
+			return additionService.;
+		
+	}
+}

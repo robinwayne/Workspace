@@ -1,0 +1,18 @@
+package fr.cpe.impl;
+
+import org.jboss.logging.Logger;
+
+public class HelloRestService implements IHelloRestService{
+	
+	Loggger logger = Logger.getLogger(HelloRestService.class.getName());
+	
+	@EJB
+	Ihello helloService;
+	
+	public String hello(){
+		logger.info("">>> hello()");
+		
+				return helloService.sayHello();
+		
+	}
+}

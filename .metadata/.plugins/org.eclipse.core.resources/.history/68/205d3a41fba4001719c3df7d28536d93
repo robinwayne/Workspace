@@ -1,0 +1,22 @@
+package fr.cpe.jms.producer;
+
+import javax.annotation.Resource;
+import javax.ejb.Stateless;
+import javax.inject.Inject;
+
+
+@Stateless
+public class HelloJmsProducer implements IHelloJmsProducer {
+	
+	@Resource(name="java:/asi2-hello")
+	private Queue queue;
+	
+	@Inject
+	private JmsContext context;
+	
+	@Override
+	public String sayHello(String name){
+		return null;
+	}
+	
+}

@@ -1,0 +1,14 @@
+package fr.cpe.impl;
+import javax.ejb.Stateless;
+
+import fr.cpe.IAddition;
+
+
+@Stateless
+public class Addition implements IAddition{
+	
+	@Override
+	public String sayHello(String name){
+		return "Hello " + (name == null || name.length() <= 0 ? "world " : name);
+	}
+}

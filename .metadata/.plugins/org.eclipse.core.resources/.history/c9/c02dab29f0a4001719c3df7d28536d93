@@ -1,0 +1,29 @@
+package fr.cpe.impl;
+
+import org.jboss.logging.Logger;
+
+import java.util.List.linkded;
+
+import javax.inject.Inject;
+
+import fr.cpe.IAddition;
+import fr.cpe.IAdditionRestService;
+
+
+public class AdditionRestService implements IAdditionRestService{
+	
+	Logger logger = Logger.getLogger(AdditionRestService.class.getName());
+	
+	@Inject
+	private IAddition additionService;
+	
+	@Override
+	public int addition(int value){
+		logger.info(">>> addition()");
+		
+			List somme= new LinkdedList();
+			
+		
+		
+	}
+}

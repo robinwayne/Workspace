@@ -1,0 +1,13 @@
+!SESSION 2017-09-28 09:12:05.521 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-28 09:15:21.279
+!MESSAGE The POM for fr.cpe:tp_jee1-ejb:jar:1.0-SNAPSHOT is missing, no dependency information available
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-28 09:15:21.393
+!MESSAGE The POM for fr.cpe:tp_jee1-ejb:jar:1.0-SNAPSHOT is missing, no dependency information available
